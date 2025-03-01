@@ -6,6 +6,7 @@ A minimal migration library in pure Clojure.
 
 ## Features
 
+- Zero dependencies.
 - Supports any storage backend with defaults for next.jdbc.
 - All migration events are logged.
 - Migrations are sequences of maps.
