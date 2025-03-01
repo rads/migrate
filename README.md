@@ -1,5 +1,7 @@
 # rads.migrate
 
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.rads/migrate.svg)](https://clojars.org/io.github.rads/migrate)
+
 A minimal migration library in pure Clojure.
 
 ## Features
