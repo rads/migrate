@@ -1,4 +1,5 @@
-{:tasks {slim {:requires ([clojure.edn :as edn])
+{:tasks {test (shell "clojure -M:dev:test")
+         slim {:requires ([clojure.edn :as edn])
                :task (let [deps-edn (edn/read-string (slurp "deps.edn"))
                            project (-> deps-edn :aliases :neil :project)]
                        (apply shell "clojure -T:slim"
